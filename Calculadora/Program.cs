@@ -1,12 +1,13 @@
 ﻿using System.Diagnostics;
 
+Console.Write("Qual operação irá utilizar? ");
+char operacao = char.Parse(Console.ReadLine());
+
 Console.Write("Digite o primeiro número: ");
 double n1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Digite o segundo número: ");
 double n2 = Convert.ToDouble(Console.ReadLine());
 
-Console.Write("Qual operação irá utilizar? ");
-char operacao = char.Parse(Console.ReadLine());
 double resultado;
 
 switch (operacao)
